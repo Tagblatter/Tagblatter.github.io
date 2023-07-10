@@ -16,7 +16,7 @@ headers = {
 
 keywords = [
     'pointcloud', 'railway', 'BIM', 'procedural modeling', 'segmentation', '3D point cloud', 'railway infrastructure',
-    'point cloud segmentation', 'extraction', 'Lidar', 'Infrastructure information models'
+    'point cloud segmentation', 'extraction', 'Lidar', 'Infrastructure information models', 'edge Regularization', 'LOD'
     ]
 
 categories = ['cs.CV', 'cs.CL', 'cs.CR', 'cs.LG']
