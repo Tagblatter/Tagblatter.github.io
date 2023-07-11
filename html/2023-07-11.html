@@ -1,0 +1,299 @@
+<h2>pointcloud</h2>
+<h2>railway</h2>
+<h2>bim</h2>
+<h2>procedural modeling</h2>
+<h2>segmentation</h2>
+<h3>Title: Edge-Aware Mirror Network for Camouflaged Object Detection. (arXiv:2307.03932v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.03932">http://arxiv.org/abs/2307.03932</a></li>
+<li>Code URL: <a href="https://github.com/sdy1999/eamnet">https://github.com/sdy1999/eamnet</a></li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.03932] Edge-Aware Mirror Network for Camouflaged Object Detection](http://arxiv.org/abs/2307.03932) #segmentation</code></li>
+<li>Summary: <p>Existing edge-aware camouflaged object detection (COD) methods normally
+output the edge prediction in the early stage. However, edges are important and
+fundamental factors in the following segmentation task. Due to the high visual
+similarity between camouflaged targets and the surroundings, edge prior
+predicted in early stage usually introduces erroneous foreground-background and
+contaminates features for segmentation. To tackle this problem, we propose a
+novel Edge-aware Mirror Network (EAMNet), which models edge detection and
+camouflaged object segmentation as a cross refinement process. More
+specifically, EAMNet has a two-branch architecture, where a
+segmentation-induced edge aggregation module and an edge-induced integrity
+aggregation module are designed to cross-guide the segmentation branch and edge
+detection branch. A guided-residual channel attention module which leverages
+the residual connection and gated convolution finally better extracts
+structural details from low-level features. Quantitative and qualitative
+experiment results show that EAMNet outperforms existing cutting-edge baselines
+on three widely used COD datasets. Codes are available at
+https://github.com/sdy1999/EAMNet.
+</p></li>
+</ul>
+<h3>Title: Building and Road Segmentation Using EffUNet and Transfer Learning Approach. (arXiv:2307.03980v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.03980">http://arxiv.org/abs/2307.03980</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.03980] Building and Road Segmentation Using EffUNet and Transfer Learning Approach](http://arxiv.org/abs/2307.03980) #segmentation</code></li>
+<li>Summary: <p>In city, information about urban objects such as water supply, railway lines,
+power lines, buildings, roads, etc., is necessary for city planning. In
+particular, information about the spread of these objects, locations and
+capacity is needed for the policymakers to make impactful decisions. This
+thesis aims to segment the building and roads from the aerial image captured by
+the satellites and UAVs. Many different architectures have been proposed for
+the semantic segmentation task and UNet being one of them. In this thesis, we
+propose a novel architecture based on Google's newly proposed EfficientNetV2 as
+an encoder for feature extraction with UNet decoder for constructing the
+segmentation map. Using this approach we achieved a benchmark score for the
+Massachusetts Building and Road dataset with an mIOU of 0.8365 and 0.9153
+respectively.
+</p></li>
+</ul>
+<h3>Title: BPNet: B\'ezier Primitive Segmentation on 3D Point Clouds. (arXiv:2307.04013v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.04013">http://arxiv.org/abs/2307.04013</a></li>
+<li>Code URL: <a href="https://github.com/bizerfr/bpnet">https://github.com/bizerfr/bpnet</a></li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.04013] BPNet: B\'ezier Primitive Segmentation on 3D Point Clouds](http://arxiv.org/abs/2307.04013) #segmentation</code></li>
+<li>Summary: <p>This paper proposes BPNet, a novel end-to-end deep learning framework to
+learn B\'ezier primitive segmentation on 3D point clouds. The existing works
+treat different primitive types separately, thus limiting them to finite shape
+categories. To address this issue, we seek a generalized primitive segmentation
+on point clouds. Taking inspiration from B\'ezier decomposition on NURBS
+models, we transfer it to guide point cloud segmentation casting off primitive
+types. A joint optimization framework is proposed to learn B\'ezier primitive
+segmentation and geometric fitting simultaneously on a cascaded architecture.
+Specifically, we introduce a soft voting regularizer to improve primitive
+segmentation and propose an auto-weight embedding module to cluster point
+features, making the network more robust and generic. We also introduce a
+reconstruction module where we successfully process multiple CAD models with
+different primitives simultaneously. We conducted extensive experiments on the
+synthetic ABC dataset and real-scan datasets to validate and compare our
+approach with different baseline methods. Experiments show superior performance
+over previous work in terms of segmentation, with a substantially faster
+inference speed.
+</p></li>
+</ul>
+<h3>Title: CMDFusion: Bidirectional Fusion Network with Cross-modality Knowledge Distillation for LIDAR Semantic Segmentation. (arXiv:2307.04091v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.04091">http://arxiv.org/abs/2307.04091</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.04091] CMDFusion: Bidirectional Fusion Network with Cross-modality Knowledge Distillation for LIDAR Semantic Segmentation](http://arxiv.org/abs/2307.04091) #segmentation</code></li>
+<li>Summary: <p>2D RGB images and 3D LIDAR point clouds provide complementary knowledge for
+the perception system of autonomous vehicles. Several 2D and 3D fusion methods
+have been explored for the LIDAR semantic segmentation task, but they suffer
+from different problems. 2D-to-3D fusion methods require strictly paired data
+during inference, which may not be available in real-world scenarios, while
+3D-to-2D fusion methods cannot explicitly make full use of the 2D information.
+Therefore, we propose a Bidirectional Fusion Network with Cross-Modality
+Knowledge Distillation (CMDFusion) in this work. Our method has two
+contributions. First, our bidirectional fusion scheme explicitly and implicitly
+enhances the 3D feature via 2D-to-3D fusion and 3D-to-2D fusion, respectively,
+which surpasses either one of the single fusion schemes. Second, we distillate
+the 2D knowledge from a 2D network (Camera branch) to a 3D network (2D
+knowledge branch) so that the 3D network can generate 2D information even for
+those points not in the FOV (field of view) of the camera. In this way, RGB
+images are not required during inference anymore since the 2D knowledge branch
+provides 2D information according to the 3D LIDAR input. We show that our
+CMDFusion achieves the best performance among all fusion-based methods on
+SemanticKITTI and nuScenes datasets. The code will be released at
+https://github.com/Jun-CEN/CMDFusion.
+</p></li>
+</ul>
+<h3>Title: Enhancing Building Semantic Segmentation Accuracy with Super Resolution and Deep Learning: Investigating the Impact of Spatial Resolution on Various Datasets. (arXiv:2307.04101v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.04101">http://arxiv.org/abs/2307.04101</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.04101] Enhancing Building Semantic Segmentation Accuracy with Super Resolution and Deep Learning: Investigating the Impact of Spatial Resolution on Various Datasets](http://arxiv.org/abs/2307.04101) #segmentation</code></li>
+<li>Summary: <p>The development of remote sensing and deep learning techniques has enabled
+building semantic segmentation with high accuracy and efficiency. Despite their
+success in different tasks, the discussions on the impact of spatial resolution
+on deep learning based building semantic segmentation are quite inadequate,
+which makes choosing a higher cost-effective data source a big challenge. To
+address the issue mentioned above, in this study, we create remote sensing
+images among three study areas into multiple spatial resolutions by
+super-resolution and down-sampling. After that, two representative deep
+learning architectures: UNet and FPN, are selected for model training and
+testing. The experimental results obtained from three cities with two deep
+learning models indicate that the spatial resolution greatly influences
+building segmentation results, and with a better cost-effectiveness around
+0.3m, which we believe will be an important insight for data selection and
+preparation.
+</p></li>
+</ul>
+<h3>Title: Parametric Depth Based Feature Representation Learning for Object Detection and Segmentation in Bird's Eye View. (arXiv:2307.04106v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.04106">http://arxiv.org/abs/2307.04106</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.04106] Parametric Depth Based Feature Representation Learning for Object Detection and Segmentation in Bird's Eye View](http://arxiv.org/abs/2307.04106) #segmentation</code></li>
+<li>Summary: <p>Recent vision-only perception models for autonomous driving achieved
+promising results by encoding multi-view image features into Bird's-Eye-View
+(BEV) space. A critical step and the main bottleneck of these methods is
+transforming image features into the BEV coordinate frame. This paper focuses
+on leveraging geometry information, such as depth, to model such feature
+transformation. Existing works rely on non-parametric depth distribution
+modeling leading to significant memory consumption, or ignore the geometry
+information to address this problem. In contrast, we propose to use parametric
+depth distribution modeling for feature transformation. We first lift the 2D
+image features to the 3D space defined for the ego vehicle via a predicted
+parametric depth distribution for each pixel in each view. Then, we aggregate
+the 3D feature volume based on the 3D space occupancy derived from depth to the
+BEV frame. Finally, we use the transformed features for downstream tasks such
+as object detection and semantic segmentation. Existing semantic segmentation
+methods do also suffer from an hallucination problem as they do not take
+visibility information into account. This hallucination can be particularly
+problematic for subsequent modules such as control and planning. To mitigate
+the issue, our method provides depth uncertainty and reliable visibility-aware
+estimations. We further leverage our parametric depth modeling to present a
+novel visibility-aware evaluation metric that, when taken into account, can
+mitigate the hallucination problem. Extensive experiments on object detection
+and semantic segmentation on the nuScenes datasets demonstrate that our method
+outperforms existing methods on both tasks.
+</p></li>
+</ul>
+<h3>Title: Marine Debris Detection in Satellite Surveillance using Attention Mechanisms. (arXiv:2307.04128v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.04128">http://arxiv.org/abs/2307.04128</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.04128] Marine Debris Detection in Satellite Surveillance using Attention Mechanisms](http://arxiv.org/abs/2307.04128) #segmentation</code></li>
+<li>Summary: <p>Marine debris is an important issue for environmental protection, but current
+methods for locating marine debris are yet limited. In order to achieve higher
+efficiency and wider applicability in the localization of Marine debris, this
+study tries to combine the instance segmentation of YOLOv7 with different
+attention mechanisms and explores the best model. By utilizing a labelled
+dataset consisting of satellite images containing ocean debris, we examined
+three attentional models including lightweight coordinate attention, CBAM
+(combining spatial and channel focus), and bottleneck transformer (based on
+self-attention). Box detection assessment revealed that CBAM achieved the best
+outcome (F1 score of 77%) compared to coordinate attention (F1 score of 71%)
+and YOLOv7/bottleneck transformer (both F1 scores around 66%). Mask evaluation
+showed CBAM again leading with an F1 score of 73%, whereas coordinate attention
+and YOLOv7 had comparable performances (around F1 score of 68%/69%) and
+bottleneck transformer lagged behind at F1 score of 56%. These findings suggest
+that CBAM offers optimal suitability for detecting marine debris. However, it
+should be noted that the bottleneck transformer detected some areas missed by
+manual annotation and displayed better mask precision for larger debris pieces,
+signifying potentially superior practical performance.
+</p></li>
+</ul>
+<h3>Title: A Novel Explainable Artificial Intelligence Model in Image Classification problem. (arXiv:2307.04137v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.04137">http://arxiv.org/abs/2307.04137</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.04137] A Novel Explainable Artificial Intelligence Model in Image Classification problem](http://arxiv.org/abs/2307.04137) #segmentation</code></li>
+<li>Summary: <p>In recent years, artificial intelligence is increasingly being applied widely
+in many different fields and has a profound and direct impact on human life.
+Following this is the need to understand the principles of the model making
+predictions. Since most of the current high-precision models are black boxes,
+neither the AI scientist nor the end-user deeply understands what's going on
+inside these models. Therefore, many algorithms are studied for the purpose of
+explaining AI models, especially those in the problem of image classification
+in the field of computer vision such as LIME, CAM, GradCAM. However, these
+algorithms still have limitations such as LIME's long execution time and CAM's
+confusing interpretation of concreteness and clarity. Therefore, in this paper,
+we propose a new method called Segmentation - Class Activation Mapping (SeCAM)
+that combines the advantages of these algorithms above, while at the same time
+overcoming their disadvantages. We tested this algorithm with various models,
+including ResNet50, Inception-v3, VGG16 from ImageNet Large Scale Visual
+Recognition Challenge (ILSVRC) data set. Outstanding results when the algorithm
+has met all the requirements for a specific explanation in a remarkably concise
+time.
+</p></li>
+</ul>
+<h3>Title: Latent Graph Attention for Enhanced Spatial Context. (arXiv:2307.04149v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.04149">http://arxiv.org/abs/2307.04149</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.04149] Latent Graph Attention for Enhanced Spatial Context](http://arxiv.org/abs/2307.04149) #segmentation</code></li>
+<li>Summary: <p>Global contexts in images are quite valuable in image-to-image translation
+problems. Conventional attention-based and graph-based models capture the
+global context to a large extent, however, these are computationally expensive.
+Moreover, the existing approaches are limited to only learning the pairwise
+semantic relation between any two points on the image. In this paper, we
+present Latent Graph Attention (LGA) a computationally inexpensive (linear to
+the number of nodes) and stable, modular framework for incorporating the global
+context in the existing architectures, especially empowering small-scale
+architectures to give performance closer to large size architectures, thus
+making the light-weight architectures more useful for edge devices with lower
+compute power and lower energy needs. LGA propagates information spatially
+using a network of locally connected graphs, thereby facilitating to construct
+a semantically coherent relation between any two spatially distant points that
+also takes into account the influence of the intermediate pixels. Moreover, the
+depth of the graph network can be used to adapt the extent of contextual spread
+to the target dataset, thereby being able to explicitly control the added
+computational cost. To enhance the learning mechanism of LGA, we also introduce
+a novel contrastive loss term that helps our LGA module to couple well with the
+original architecture at the expense of minimal additional computational load.
+We show that incorporating LGA improves the performance on three challenging
+applications, namely transparent object segmentation, image restoration for
+dehazing and optical flow estimation.
+</p></li>
+</ul>
+<h3>Title: Mx2M: Masked Cross-Modality Modeling in Domain Adaptation for 3D Semantic Segmentation. (arXiv:2307.04231v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.04231">http://arxiv.org/abs/2307.04231</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.04231] Mx2M: Masked Cross-Modality Modeling in Domain Adaptation for 3D Semantic Segmentation](http://arxiv.org/abs/2307.04231) #segmentation</code></li>
+<li>Summary: <p>Existing methods of cross-modal domain adaptation for 3D semantic
+segmentation predict results only via 2D-3D complementarity that is obtained by
+cross-modal feature matching. However, as lacking supervision in the target
+domain, the complementarity is not always reliable. The results are not ideal
+when the domain gap is large. To solve the problem of lacking supervision, we
+introduce masked modeling into this task and propose a method Mx2M, which
+utilizes masked cross-modality modeling to reduce the large domain gap. Our
+Mx2M contains two components. One is the core solution, cross-modal removal and
+prediction (xMRP), which makes the Mx2M adapt to various scenarios and provides
+cross-modal self-supervision. The other is a new way of cross-modal feature
+matching, the dynamic cross-modal filter (DxMF) that ensures the whole method
+dynamically uses more suitable 2D-3D complementarity. Evaluation of the Mx2M on
+three DA scenarios, including Day/Night, USA/Singapore, and A2D2/SemanticKITTI,
+brings large improvements over previous methods on many metrics.
+</p></li>
+</ul>
+<h3>Title: Convex Decomposition of Indoor Scenes. (arXiv:2307.04246v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.04246">http://arxiv.org/abs/2307.04246</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.04246] Convex Decomposition of Indoor Scenes](http://arxiv.org/abs/2307.04246) #segmentation</code></li>
+<li>Summary: <p>We describe a method to parse a complex, cluttered indoor scene into
+primitives which offer a parsimonious abstraction of scene structure. Our
+primitives are simple convexes. Our method uses a learned regression procedure
+to parse a scene into a fixed number of convexes from RGBD input, and can
+optionally accept segmentations to improve the decomposition. The result is
+then polished with a descent method which adjusts the convexes to produce a
+very good fit, and greedily removes superfluous primitives. Because the entire
+scene is parsed, we can evaluate using traditional depth, normal, and
+segmentation error metrics. Our evaluation procedure demonstrates that the
+error from our primitive representation is comparable to that of predicting
+depth from a single image.
+</p></li>
+</ul>
+<h2>3d point cloud</h2>
+<h2>railway infrastructure</h2>
+<h2>point cloud segmentation</h2>
+<h2>extraction</h2>
+<h3>Title: CA-CentripetalNet: A novel anchor-free deep learning framework for hardhat wearing detection. (arXiv:2307.04103v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.04103">http://arxiv.org/abs/2307.04103</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.04103] CA-CentripetalNet: A novel anchor-free deep learning framework for hardhat wearing detection](http://arxiv.org/abs/2307.04103) #extraction</code></li>
+<li>Summary: <p>Automatic hardhat wearing detection can strengthen the safety management in
+construction sites, which is still challenging due to complicated video
+surveillance scenes. To deal with the poor generalization of previous deep
+learning based methods, a novel anchor-free deep learning framework called
+CA-CentripetalNet is proposed for hardhat wearing detection. Two novel schemes
+are proposed to improve the feature extraction and utilization ability of
+CA-CentripetalNet, which are vertical-horizontal corner pooling and bounding
+constrained center attention. The former is designed to realize the
+comprehensive utilization of marginal features and internal features. The
+latter is designed to enforce the backbone to pay attention to internal
+features, which is only used during the training rather than during the
+detection. Experimental results indicate that the CA-CentripetalNet achieves
+better performance with the 86.63% mAP (mean Average Precision) with less
+memory consumption at a reasonable speed than the existing deep learning based
+methods, especially in case of small-scale hardhats and non-worn-hardhats.
+</p></li>
+</ul>
+<h2>lidar</h2>
+<h2>Infrastructure information models</h2>
+<h2>edge regularization</h2>
+<h2>lod</h2>
+<script src="https://cdn.staticfile.org/clipboard.js/2.0.4/clipboard.min.js"></script>
+<script>new ClipboardJS("#copy",{text:function(trigger){var res="[[2023-07-11]]\n\n";var input=document.querySelectorAll("input");for(var i=0;i<input.length;i++){if(input[i].type=="checkbox"&&input[i].checked){res+="- "+input[i].nextSibling.nodeValue+"\n"}}res+="\n";return res}}).on("success",function(e){e.clearSelection()});</script>
+<button id="copy">Copy All</button>
