@@ -15,11 +15,11 @@ headers = {
 }
 
 keywords = [
-    'pointcloud', 'railway', 'BIM', 'procedural modeling', 'segmentation', '3D point cloud', 'railway infrastructure',
-    'point cloud segmentation', 'extraction', 'Lidar', 'Infrastructure information models', 'edge Regularization', 'LOD'
+    'pointcloud', 'railway', 'bim', 'procedural modeling', 'segmentation', '3d point cloud', 'railway infrastructure',
+    'point cloud segmentation', 'extraction', 'lidar', 'Infrastructure information models', 'edge regularization', 'lod'
     ]
 
-categories = ['cs.CV', 'cs.CL', 'cs.CR', 'cs.LG']
+categories = ['cs.CV',  'cs.CG', 'cs.GR']     # CV CG
 proxies={'https':'127.0.0.1:10809'}
 
 
