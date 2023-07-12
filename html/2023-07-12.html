@@ -1,0 +1,212 @@
+<h2>pointcloud</h2>
+<h2>railway</h2>
+<h2>bim</h2>
+<h2>procedural modeling</h2>
+<h2>segmentation</h2>
+<h3>Title: Rapid Deforestation and Burned Area Detection using Deep Multimodal Learning on Satellite Imagery. (arXiv:2307.04916v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.04916">http://arxiv.org/abs/2307.04916</a></li>
+<li>Code URL: <a href="https://github.com/h2oai/cvpr-multiearth-deforestation-segmentation">https://github.com/h2oai/cvpr-multiearth-deforestation-segmentation</a></li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.04916] Rapid Deforestation and Burned Area Detection using Deep Multimodal Learning on Satellite Imagery](http://arxiv.org/abs/2307.04916) #segmentation</code></li>
+<li>Summary: <p>Deforestation estimation and fire detection in the Amazon forest poses a
+significant challenge due to the vast size of the area and the limited
+accessibility. However, these are crucial problems that lead to severe
+environmental consequences, including climate change, global warming, and
+biodiversity loss. To effectively address this problem, multimodal satellite
+imagery and remote sensing offer a promising solution for estimating
+deforestation and detecting wildfire in the Amazonia region. This research
+paper introduces a new curated dataset and a deep learning-based approach to
+solve these problems using convolutional neural networks (CNNs) and
+comprehensive data processing techniques. Our dataset includes curated images
+and diverse channel bands from Sentinel, Landsat, VIIRS, and MODIS satellites.
+We design the dataset considering different spatial and temporal resolution
+requirements. Our method successfully achieves high-precision deforestation
+estimation and burned area detection on unseen images from the region. Our
+code, models and dataset are open source:
+https://github.com/h2oai/cvpr-multiearth-deforestation-segmentation
+</p></li>
+</ul>
+<h3>Title: PKU-GoodsAD: A Supermarket Goods Dataset for Unsupervised Anomaly Detection and Segmentation. (arXiv:2307.04956v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.04956">http://arxiv.org/abs/2307.04956</a></li>
+<li>Code URL: <a href="https://github.com/jianzhang96/goodsad">https://github.com/jianzhang96/goodsad</a></li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.04956] PKU-GoodsAD: A Supermarket Goods Dataset for Unsupervised Anomaly Detection and Segmentation](http://arxiv.org/abs/2307.04956) #segmentation</code></li>
+<li>Summary: <p>Visual anomaly detection is essential and commonly used for many tasks in the
+field of computer vision. Recent anomaly detection datasets mainly focus on
+industrial automated inspection, medical image analysis and video surveillance.
+In order to broaden the application and research of anomaly detection in
+unmanned supermarkets and smart manufacturing, we introduce the supermarket
+goods anomaly detection (GoodsAD) dataset. It contains 6124 high-resolution
+images of 484 different appearance goods divided into 6 categories. Each
+category contains several common different types of anomalies such as
+deformation, surface damage and opened. Anomalies contain both texture changes
+and structural changes. It follows the unsupervised setting and only normal
+(defect-free) images are used for training. Pixel-precise ground truth regions
+are provided for all anomalies. Moreover, we also conduct a thorough evaluation
+of current state-of-the-art unsupervised anomaly detection methods. This
+initial benchmark indicates that some methods which perform well on the
+industrial anomaly detection dataset (e.g., MVTec AD), show poor performance on
+our dataset. This is a comprehensive, multi-object dataset for supermarket
+goods anomaly detection that focuses on real-world applications.
+</p></li>
+</ul>
+<h3>Title: Test-Time Training on Video Streams. (arXiv:2307.05014v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.05014">http://arxiv.org/abs/2307.05014</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.05014] Test-Time Training on Video Streams](http://arxiv.org/abs/2307.05014) #segmentation</code></li>
+<li>Summary: <p>Prior work has established test-time training (TTT) as a general framework to
+further improve a trained model at test time. Before making a prediction on
+each test instance, the model is trained on the same instance using a
+self-supervised task, such as image reconstruction with masked autoencoders. We
+extend TTT to the streaming setting, where multiple test instances - video
+frames in our case - arrive in temporal order. Our extension is online TTT: The
+current model is initialized from the previous model, then trained on the
+current frame and a small window of frames immediately before. Online TTT
+significantly outperforms the fixed-model baseline for four tasks, on three
+real-world datasets. The relative improvement is 45% and 66% for instance and
+panoptic segmentation. Surprisingly, online TTT also outperforms its offline
+variant that accesses more information, training on all frames from the entire
+test video regardless of temporal order. This differs from previous findings
+using synthetic videos. We conceptualize locality as the advantage of online
+over offline TTT. We analyze the role of locality with ablations and a theory
+based on bias-variance trade-off.
+</p></li>
+</ul>
+<h3>Title: TRansPose: Large-Scale Multispectral Dataset for Transparent Object. (arXiv:2307.05016v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.05016">http://arxiv.org/abs/2307.05016</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.05016] TRansPose: Large-Scale Multispectral Dataset for Transparent Object](http://arxiv.org/abs/2307.05016) #segmentation</code></li>
+<li>Summary: <p>Transparent objects are encountered frequently in our daily lives, yet
+recognizing them poses challenges for conventional vision sensors due to their
+unique material properties, not being well perceived from RGB or depth cameras.
+Overcoming this limitation, thermal infrared cameras have emerged as a
+solution, offering improved visibility and shape information for transparent
+objects. In this paper, we present TRansPose, the first large-scale
+multispectral dataset that combines stereo RGB-D, thermal infrared (TIR)
+images, and object poses to promote transparent object research. The dataset
+includes 99 transparent objects, encompassing 43 household items, 27 recyclable
+trashes, 29 chemical laboratory equivalents, and 12 non-transparent objects. It
+comprises a vast collection of 333,819 images and 4,000,056 annotations,
+providing instance-level segmentation masks, ground-truth poses, and completed
+depth information. The data was acquired using a FLIR A65 thermal infrared
+(TIR) camera, two Intel RealSense L515 RGB-D cameras, and a Franka Emika Panda
+robot manipulator. Spanning 87 sequences, TRansPose covers various challenging
+real-life scenarios, including objects filled with water, diverse lighting
+conditions, heavy clutter, non-transparent or translucent containers, objects
+in plastic bags, and multi-stacked objects. TRansPose dataset can be accessed
+from the following link: https://sites.google.com/view/transpose-dataset
+</p></li>
+</ul>
+<h3>Title: Automatic Generation of Semantic Parts for Face Image Synthesis. (arXiv:2307.05317v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.05317">http://arxiv.org/abs/2307.05317</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.05317] Automatic Generation of Semantic Parts for Face Image Synthesis](http://arxiv.org/abs/2307.05317) #segmentation</code></li>
+<li>Summary: <p>Semantic image synthesis (SIS) refers to the problem of generating realistic
+imagery given a semantic segmentation mask that defines the spatial layout of
+object classes. Most of the approaches in the literature, other than the
+quality of the generated images, put effort in finding solutions to increase
+the generation diversity in terms of style i.e. texture. However, they all
+neglect a different feature, which is the possibility of manipulating the
+layout provided by the mask. Currently, the only way to do so is manually by
+means of graphical users interfaces. In this paper, we describe a network
+architecture to address the problem of automatically manipulating or generating
+the shape of object classes in semantic segmentation masks, with specific focus
+on human faces. Our proposed model allows embedding the mask class-wise into a
+latent space where each class embedding can be independently edited. Then, a
+bi-directional LSTM block and a convolutional decoder output a new, locally
+manipulated mask. We report quantitative and qualitative results on the
+CelebMask-HQ dataset, which show our model can both faithfully reconstruct and
+modify a segmentation mask at the class level. Also, we show our model can be
+put before a SIS generator, opening the way to a fully automatic generation
+control of both shape and texture. Code available at
+https://github.com/TFonta/Semantic-VAE.
+</p></li>
+</ul>
+<h2>3d point cloud</h2>
+<h3>Title: Self-supervised adversarial masking for 3D point cloud representation learning. (arXiv:2307.05325v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.05325">http://arxiv.org/abs/2307.05325</a></li>
+<li>Code URL: <a href="https://github.com/szacho/pointcam">https://github.com/szacho/pointcam</a></li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.05325] Self-supervised adversarial masking for 3D point cloud representation learning](http://arxiv.org/abs/2307.05325) #3d point cloud</code></li>
+<li>Summary: <p>Self-supervised methods have been proven effective for learning deep
+representations of 3D point cloud data. Although recent methods in this domain
+often rely on random masking of inputs, the results of this approach can be
+improved. We introduce PointCAM, a novel adversarial method for learning a
+masking function for point clouds. Our model utilizes a self-distillation
+framework with an online tokenizer for 3D point clouds. Compared to previous
+techniques that optimize patch-level and object-level objectives, we postulate
+applying an auxiliary network that learns how to select masks instead of
+choosing them randomly. Our results show that the learned masking function
+achieves state-of-the-art or competitive performance on various downstream
+tasks. The source code is available at https://github.com/szacho/pointcam.
+</p></li>
+</ul>
+<h2>railway infrastructure</h2>
+<h2>point cloud segmentation</h2>
+<h2>extraction</h2>
+<h3>Title: Co-Attention Gated Vision-Language Embedding for Visual Question Localized-Answering in Robotic Surgery. (arXiv:2307.05182v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.05182">http://arxiv.org/abs/2307.05182</a></li>
+<li>Code URL: <a href="https://github.com/longbai1006/cat-vil">https://github.com/longbai1006/cat-vil</a></li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.05182] Co-Attention Gated Vision-Language Embedding for Visual Question Localized-Answering in Robotic Surgery](http://arxiv.org/abs/2307.05182) #extraction</code></li>
+<li>Summary: <p>Medical students and junior surgeons often rely on senior surgeons and
+specialists to answer their questions when learning surgery. However, experts
+are often busy with clinical and academic work, and have little time to give
+guidance. Meanwhile, existing deep learning (DL)-based surgical Visual Question
+Answering (VQA) systems can only provide simple answers without the location of
+the answers. In addition, vision-language (ViL) embedding is still a less
+explored research in these kinds of tasks. Therefore, a surgical Visual
+Question Localized-Answering (VQLA) system would be helpful for medical
+students and junior surgeons to learn and understand from recorded surgical
+videos. We propose an end-to-end Transformer with Co-Attention gaTed
+Vision-Language (CAT-ViL) for VQLA in surgical scenarios, which does not
+require feature extraction through detection models. The CAT-ViL embedding
+module is designed to fuse heterogeneous features from visual and textual
+sources. The fused embedding will feed a standard Data-Efficient Image
+Transformer (DeiT) module, before the parallel classifier and detector for
+joint prediction. We conduct the experimental validation on public surgical
+videos from MICCAI EndoVis Challenge 2017 and 2018. The experimental results
+highlight the superior performance and robustness of our proposed model
+compared to the state-of-the-art approaches. Ablation studies further prove the
+outstanding performance of all the proposed components. The proposed method
+provides a promising solution for surgical scene understanding, and opens up a
+primary step in the Artificial Intelligence (AI)-based VQLA system for surgical
+training. Our code is publicly available.
+</p></li>
+</ul>
+<h2>lidar</h2>
+<h2>Infrastructure information models</h2>
+<h2>edge regularization</h2>
+<h2>lod</h2>
+<h3>Title: 3D detection of roof sections from a single satellite image and application to LOD2-building reconstruction. (arXiv:2307.05409v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.05409">http://arxiv.org/abs/2307.05409</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.05409] 3D detection of roof sections from a single satellite image and application to LOD2-building reconstruction](http://arxiv.org/abs/2307.05409) #lod</code></li>
+<li>Summary: <p>Reconstructing urban areas in 3D out of satellite raster images has been a
+long-standing and challenging goal of both academical and industrial research.
+The rare methods today achieving this objective at a Level Of Details $2$ rely
+on procedural approaches based on geometry, and need stereo images and/or LIDAR
+data as input. We here propose a method for urban 3D reconstruction named
+KIBS(\textit{Keypoints Inference By Segmentation}), which comprises two novel
+features: i) a full deep learning approach for the 3D detection of the roof
+sections, and ii) only one single (non-orthogonal) satellite raster image as
+model input. This is achieved in two steps: i) by a Mask R-CNN model performing
+a 2D segmentation of the buildings' roof sections, and after blending these
+latter segmented pixels within the RGB satellite raster image, ii) by another
+identical Mask R-CNN model inferring the heights-to-ground of the roof
+sections' corners via panoptic segmentation, unto full 3D reconstruction of the
+buildings and city. We demonstrate the potential of the KIBS method by
+reconstructing different urban areas in a few minutes, with a Jaccard index for
+the 2D segmentation of individual roof sections of $88.55\%$ and $75.21\%$ on
+our two data sets resp., and a height's mean error of such correctly segmented
+pixels for the 3D reconstruction of $1.60$ m and $2.06$ m on our two data sets
+resp., hence within the LOD2 precision range.
+</p></li>
+</ul>
+<script src="https://cdn.staticfile.org/clipboard.js/2.0.4/clipboard.min.js"></script>
+<script>new ClipboardJS("#copy",{text:function(trigger){var res="[[2023-07-12]]\n\n";var input=document.querySelectorAll("input");for(var i=0;i<input.length;i++){if(input[i].type=="checkbox"&&input[i].checked){res+="- "+input[i].nextSibling.nodeValue+"\n"}}res+="\n";return res}}).on("success",function(e){e.clearSelection()});</script>
+<button id="copy">Copy All</button>
