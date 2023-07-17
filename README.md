@@ -1,12 +1,12 @@
 # arxiv-daily
-updated on 2023-07-14 15:18:32.438567
+updated on 2023-07-17 15:11:59.407601
 | keyword | count |
 | - | - |
 | pointcloud | 0 |
 | railway | 0 |
 | bim | 0 |
 | procedural modeling | 0 |
-| segmentation | 4 |
+| segmentation | 10 |
 | 3d point cloud | 0 |
 | railway infrastructure | 0 |
 | point cloud segmentation | 0 |
