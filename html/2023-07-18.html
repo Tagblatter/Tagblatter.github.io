@@ -1,0 +1,446 @@
+<h2>pointcloud</h2>
+<h2>railway</h2>
+<h2>bim</h2>
+<h2>procedural modeling</h2>
+<h2>segmentation</h2>
+<h3>Title: ConTrack: Contextual Transformer for Device Tracking in X-ray. (arXiv:2307.07541v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.07541">http://arxiv.org/abs/2307.07541</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.07541] ConTrack: Contextual Transformer for Device Tracking in X-ray](http://arxiv.org/abs/2307.07541) #segmentation</code></li>
+<li>Summary: <p>Device tracking is an important prerequisite for guidance during endovascular
+procedures. Especially during cardiac interventions, detection and tracking of
+guiding the catheter tip in 2D fluoroscopic images is important for
+applications such as mapping vessels from angiography (high dose with contrast)
+to fluoroscopy (low dose without contrast). Tracking the catheter tip poses
+different challenges: the tip can be occluded by contrast during angiography or
+interventional devices; and it is always in continuous movement due to the
+cardiac and respiratory motions. To overcome these challenges, we propose
+ConTrack, a transformer-based network that uses both spatial and temporal
+contextual information for accurate device detection and tracking in both X-ray
+fluoroscopy and angiography. The spatial information comes from the template
+frames and the segmentation module: the template frames define the surroundings
+of the device, whereas the segmentation module detects the entire device to
+bring more context for the tip prediction. Using multiple templates makes the
+model more robust to the change in appearance of the device when it is occluded
+by the contrast agent. The flow information computed on the segmented catheter
+mask between the current and the previous frame helps in further refining the
+prediction by compensating for the respiratory and cardiac motions. The
+experiments show that our method achieves 45% or higher accuracy in detection
+and tracking when compared to state-of-the-art tracking models.
+</p></li>
+</ul>
+<h3>Title: ACF-Net: An Attention-enhanced Co-interactive Fusion Network for Automated Structural Condition Assessment in Visual Inspection. (arXiv:2307.07643v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.07643">http://arxiv.org/abs/2307.07643</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.07643] ACF-Net: An Attention-enhanced Co-interactive Fusion Network for Automated Structural Condition Assessment in Visual Inspection](http://arxiv.org/abs/2307.07643) #segmentation</code></li>
+<li>Summary: <p>Efficiently monitoring the condition of civil infrastructures necessitates
+automating the structural condition assessment in visual inspection. This paper
+proposes an Attention-enhanced Co-interactive Fusion Network (ACF-Net) for
+automatic structural condition assessment in visual bridge inspection. The
+ACF-Net can simultaneously parse structural elements and segment surface
+defects on the elements in inspection images. It integrates two task-specific
+relearning subnets to extract task-specific features from an overall feature
+embedding and a co-interactive feature fusion module to capture the spatial
+correlation and facilitate information sharing between tasks. Experimental
+results demonstrate that the proposed ACF-Net outperforms the current
+state-of-the-art approaches, achieving promising performance with 92.11% mIoU
+for element parsing and 87.16% mIoU for corrosion segmentation on the new
+benchmark dataset Steel Bridge Condition Inspection Visual (SBCIV) testing set.
+An ablation study reveals the strengths of ACF-Net, and a case study showcases
+its capability to automate structural condition assessment. The code will be
+open-source after acceptance.
+</p></li>
+</ul>
+<h3>Title: MPDIoU: A Loss for Efficient and Accurate Bounding Box Regression. (arXiv:2307.07662v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.07662">http://arxiv.org/abs/2307.07662</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.07662] MPDIoU: A Loss for Efficient and Accurate Bounding Box Regression](http://arxiv.org/abs/2307.07662) #segmentation</code></li>
+<li>Summary: <p>Bounding box regression (BBR) has been widely used in object detection and
+instance segmentation, which is an important step in object localization.
+However, most of the existing loss functions for bounding box regression cannot
+be optimized when the predicted box has the same aspect ratio as the
+groundtruth box, but the width and height values are exactly different. In
+order to tackle the issues mentioned above, we fully explore the geometric
+features of horizontal rectangle and propose a novel bounding box similarity
+comparison metric MPDIoU based on minimum point distance, which contains all of
+the relevant factors considered in the existing loss functions, namely
+overlapping or non-overlapping area, central points distance, and deviation of
+width and height, while simplifying the calculation process. On this basis, we
+propose a bounding box regression loss function based on MPDIoU, called LMPDIoU
+. Experimental results show that the MPDIoU loss function is applied to
+state-of-the-art instance segmentation (e.g., YOLACT) and object detection
+(e.g., YOLOv7) model trained on PASCAL VOC, MS COCO, and IIIT5k outperforms
+existing loss functions.
+</p></li>
+</ul>
+<h3>Title: Learning from Pseudo-labeled Segmentation for Multi-Class Object Counting. (arXiv:2307.07677v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.07677">http://arxiv.org/abs/2307.07677</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.07677] Learning from Pseudo-labeled Segmentation for Multi-Class Object Counting](http://arxiv.org/abs/2307.07677) #segmentation</code></li>
+<li>Summary: <p>Class-agnostic counting (CAC) has numerous potential applications across
+various domains. The goal is to count objects of an arbitrary category during
+testing, based on only a few annotated exemplars. In this paper, we point out
+that the task of counting objects of interest when there are multiple object
+classes in the image (namely, multi-class object counting) is particularly
+challenging for current object counting models. They often greedily count every
+object regardless of the exemplars. To address this issue, we propose
+localizing the area containing the objects of interest via an exemplar-based
+segmentation model before counting them. The key challenge here is the lack of
+segmentation supervision to train this model. To this end, we propose a method
+to obtain pseudo segmentation masks using only box exemplars and dot
+annotations. We show that the segmentation model trained on these
+pseudo-labeled masks can effectively localize objects of interest for an
+arbitrary multi-class image based on the exemplars. To evaluate the performance
+of different methods on multi-class counting, we introduce two new benchmarks,
+a synthetic multi-class dataset and a new test set of real images in which
+objects from multiple classes are present. Our proposed method shows a
+significant advantage over the previous CAC methods on these two benchmarks.
+</p></li>
+</ul>
+<h3>Title: PSGformer: Enhancing 3D Point Cloud Instance Segmentation via Precise Semantic Guidance. (arXiv:2307.07708v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.07708">http://arxiv.org/abs/2307.07708</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.07708] PSGformer: Enhancing 3D Point Cloud Instance Segmentation via Precise Semantic Guidance](http://arxiv.org/abs/2307.07708) #segmentation</code></li>
+<li>Summary: <p>Most existing 3D instance segmentation methods are derived from 3D semantic
+segmentation models. However, these indirect approaches suffer from certain
+limitations. They fail to fully leverage global and local semantic information
+for accurate prediction, which hampers the overall performance of the 3D
+instance segmentation framework. To address these issues, this paper presents
+PSGformer, a novel 3D instance segmentation network. PSGformer incorporates two
+key advancements to enhance the performance of 3D instance segmentation.
+Firstly, we propose a Multi-Level Semantic Aggregation Module, which
+effectively captures scene features by employing foreground point filtering and
+multi-radius aggregation. This module enables the acquisition of more detailed
+semantic information from global and local perspectives. Secondly, PSGformer
+introduces a Parallel Feature Fusion Transformer Module that independently
+processes super-point features and aggregated features using transformers. The
+model achieves a more comprehensive feature representation by the features
+which connect global and local features. We conducted extensive experiments on
+the ScanNetv2 dataset. Notably, PSGformer exceeds compared state-of-the-art
+methods by 2.2% on ScanNetv2 hidden test set in terms of mAP. Our code and
+models will be publicly released.
+</p></li>
+</ul>
+<h3>Title: Improving Translation Invariance in Convolutional Neural Networks with Peripheral Prediction Padding. (arXiv:2307.07725v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.07725">http://arxiv.org/abs/2307.07725</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.07725] Improving Translation Invariance in Convolutional Neural Networks with Peripheral Prediction Padding](http://arxiv.org/abs/2307.07725) #segmentation</code></li>
+<li>Summary: <p>Zero padding is often used in convolutional neural networks to prevent the
+feature map size from decreasing with each layer. However, recent studies have
+shown that zero padding promotes encoding of absolute positional information,
+which may adversely affect the performance of some tasks. In this work, a novel
+padding method called Peripheral Prediction Padding (PP-Pad) method is
+proposed, which enables end-to-end training of padding values suitable for each
+task instead of zero padding. Moreover, novel metrics to quantitatively
+evaluate the translation invariance of the model are presented. By evaluating
+with these metrics, it was confirmed that the proposed method achieved higher
+accuracy and translation invariance than the previous methods in a semantic
+segmentation task.
+</p></li>
+</ul>
+<h3>Title: Open Scene Understanding: Grounded Situation Recognition Meets Segment Anything for Helping People with Visual Impairments. (arXiv:2307.07757v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.07757">http://arxiv.org/abs/2307.07757</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.07757] Open Scene Understanding: Grounded Situation Recognition Meets Segment Anything for Helping People with Visual Impairments](http://arxiv.org/abs/2307.07757) #segmentation</code></li>
+<li>Summary: <p>Grounded Situation Recognition (GSR) is capable of recognizing and
+interpreting visual scenes in a contextually intuitive way, yielding salient
+activities (verbs) and the involved entities (roles) depicted in images. In
+this work, we focus on the application of GSR in assisting people with visual
+impairments (PVI). However, precise localization information of detected
+objects is often required to navigate their surroundings confidently and make
+informed decisions. For the first time, we propose an Open Scene Understanding
+(OpenSU) system that aims to generate pixel-wise dense segmentation masks of
+involved entities instead of bounding boxes. Specifically, we build our OpenSU
+system on top of GSR by additionally adopting an efficient Segment Anything
+Model (SAM). Furthermore, to enhance the feature extraction and interaction
+between the encoder-decoder structure, we construct our OpenSU system using a
+solid pure transformer backbone to improve the performance of GSR. In order to
+accelerate the convergence, we replace all the activation functions within the
+GSR decoders with GELU, thereby reducing the training duration. In quantitative
+analysis, our model achieves state-of-the-art performance on the SWiG dataset.
+Moreover, through field testing on dedicated assistive technology datasets and
+application demonstrations, the proposed OpenSU system can be used to enhance
+scene understanding and facilitate the independent mobility of people with
+visual impairments. Our code will be available at
+https://github.com/RuipingL/OpenSU.
+</p></li>
+</ul>
+<h3>Title: Multiscale Memory Comparator Transformer for Few-Shot Video Segmentation. (arXiv:2307.07812v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.07812">http://arxiv.org/abs/2307.07812</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.07812] Multiscale Memory Comparator Transformer for Few-Shot Video Segmentation](http://arxiv.org/abs/2307.07812) #segmentation</code></li>
+<li>Summary: <p>Few-shot video segmentation is the task of delineating a specific novel class
+in a query video using few labelled support images. Typical approaches compare
+support and query features while limiting comparisons to a single feature layer
+and thereby ignore potentially valuable information. We present a meta-learned
+Multiscale Memory Comparator (MMC) for few-shot video segmentation that
+combines information across scales within a transformer decoder. Typical
+multiscale transformer decoders for segmentation tasks learn a compressed
+representation, their queries, through information exchange across scales.
+Unlike previous work, we instead preserve the detailed feature maps during
+across scale information exchange via a multiscale memory transformer decoding
+to reduce confusion between the background and novel class. Integral to the
+approach, we investigate multiple forms of information exchange across scales
+in different tasks and provide insights with empirical evidence on which to use
+in each task. The overall comparisons among query and support features benefit
+from both rich semantics and precise localization. We demonstrate our approach
+primarily on few-shot video object segmentation and an adapted version on the
+fully supervised counterpart. In all cases, our approach outperforms the
+baseline and yields state-of-the-art performance. Our code is publicly
+available at https://github.com/MSiam/MMC-MultiscaleMemory.
+</p></li>
+</ul>
+<h3>Title: Handwritten and Printed Text Segmentation: A Signature Case Study. (arXiv:2307.07887v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.07887">http://arxiv.org/abs/2307.07887</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.07887] Handwritten and Printed Text Segmentation: A Signature Case Study](http://arxiv.org/abs/2307.07887) #segmentation</code></li>
+<li>Summary: <p>While analyzing scanned documents, handwritten text can overlay printed text.
+This causes difficulties during the optical character recognition (OCR) and
+digitization process of documents, and subsequently, hurts downstream NLP
+tasks. Prior research either focuses only on the binary classification of
+handwritten text, or performs a three-class segmentation of the document, i.e.,
+recognition of handwritten, printed, and background pixels. This results in the
+assignment of the handwritten and printed overlapping pixels to only one of the
+classes, and thus, they are not accounted for in the other class. Thus, in this
+research, we develop novel approaches for addressing the challenges of
+handwritten and printed text segmentation with the goal of recovering text in
+different classes in whole, especially improving the segmentation performance
+on the overlapping parts. As such, to facilitate with this task, we introduce a
+new dataset, SignaTR6K, collected from real legal documents, as well as a new
+model architecture for handwritten and printed text segmentation task. Our best
+configuration outperforms the prior work on two different datasets by 17.9% and
+7.3% on IoU scores.
+</p></li>
+</ul>
+<h3>Title: Holistic Prototype Attention Network for Few-Shot VOS. (arXiv:2307.07933v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.07933">http://arxiv.org/abs/2307.07933</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.07933] Holistic Prototype Attention Network for Few-Shot VOS](http://arxiv.org/abs/2307.07933) #segmentation</code></li>
+<li>Summary: <p>Few-shot video object segmentation (FSVOS) aims to segment dynamic objects of
+unseen classes by resorting to a small set of support images that contain
+pixel-level object annotations. Existing methods have demonstrated that the
+domain agent-based attention mechanism is effective in FSVOS by learning the
+correlation between support images and query frames. However, the agent frame
+contains redundant pixel information and background noise, resulting in
+inferior segmentation performance. Moreover, existing methods tend to ignore
+inter-frame correlations in query videos. To alleviate the above dilemma, we
+propose a holistic prototype attention network (HPAN) for advancing FSVOS.
+Specifically, HPAN introduces a prototype graph attention module (PGAM) and a
+bidirectional prototype attention module (BPAM), transferring informative
+knowledge from seen to unseen classes. PGAM generates local prototypes from all
+foreground features and then utilizes their internal correlations to enhance
+the representation of the holistic prototypes. BPAM exploits the holistic
+information from support images and video frames by fusing co-attention and
+self-attention to achieve support-query semantic consistency and inner-frame
+temporal consistency. Extensive experiments on YouTube-FSVOS have been provided
+to demonstrate the effectiveness and superiority of our proposed HPAN method.
+</p></li>
+</ul>
+<h3>Title: Dual-level Interaction for Domain Adaptive Semantic Segmentation. (arXiv:2307.07972v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.07972">http://arxiv.org/abs/2307.07972</a></li>
+<li>Code URL: <a href="https://github.com/rainjamesy/dida">https://github.com/rainjamesy/dida</a></li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.07972] Dual-level Interaction for Domain Adaptive Semantic Segmentation](http://arxiv.org/abs/2307.07972) #segmentation</code></li>
+<li>Summary: <p>To circumvent the costly pixel-wise annotations of real-world images in the
+semantic segmentation task, the Unsupervised Domain Adaptation (UDA) is
+explored to firstly train a model with the labeled source data (synthetic
+images) and then adapt it to the unlabeled target data (real images). Among all
+the techniques being studied, the self-training approach recently secures its
+position in domain adaptive semantic segmentation, where a model is trained
+with target domain pseudo-labels. Current advances have mitigated noisy
+pseudo-labels resulting from the domain gap. However, they still struggle with
+erroneous pseudo-labels near the decision boundaries of the semantic
+classifier. In this paper, we tackle this issue by proposing a dual-level
+interaction for domain adaptation (DIDA) in semantic segmentation. Explicitly,
+we encourage the different augmented views of the same pixel to have not only
+similar class prediction (semantic-level) but also akin similarity relationship
+respected to other pixels (instance-level). As it is impossible to keep
+features of all pixel instances for a dataset, we novelly design and maintain a
+labeled instance bank with dynamic updating strategies to selectively store the
+informative features of instances. Further, DIDA performs cross-level
+interaction with scattering and gathering techniques to regenerate more
+reliable pseudolabels. Our method outperforms the state-of-the-art by a notable
+margin, especially on confusing and long-tailed classes. Code is available at
+https://github.com/RainJamesY/DIDA.
+</p></li>
+</ul>
+<h3>Title: HRHD-HK: A benchmark dataset of high-rise and high-density urban scenes for 3D semantic segmentation of photogrammetric point clouds. (arXiv:2307.07976v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.07976">http://arxiv.org/abs/2307.07976</a></li>
+<li>Code URL: <a href="https://github.com/luzaijiaoxial/hrhd-hk">https://github.com/luzaijiaoxial/hrhd-hk</a></li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.07976] HRHD-HK: A benchmark dataset of high-rise and high-density urban scenes for 3D semantic segmentation of photogrammetric point clouds](http://arxiv.org/abs/2307.07976) #segmentation</code></li>
+<li>Summary: <p>Many existing 3D semantic segmentation methods, deep learning in computer
+vision notably, claimed to achieve desired results on urban point clouds, in
+which the city objects are too many and diverse for people to judge
+qualitatively. Thus, it is significant to assess these methods quantitatively
+in diversified real-world urban scenes, encompassing high-rise, low-rise,
+high-density, and low-density urban areas. However, existing public benchmark
+datasets primarily represent low-rise scenes from European cities and cannot
+assess the methods comprehensively. This paper presents a benchmark dataset of
+high-rise urban point clouds, namely High-Rise, High-Density urban scenes of
+Hong Kong (HRHD-HK), which has been vacant for a long time. HRHD-HK arranged in
+150 tiles contains 273 million colorful photogrammetric 3D points from diverse
+urban settings. The semantic labels of HRHD-HK include building, vegetation,
+road, waterbody, facility, terrain, and vehicle. To the best of our knowledge,
+HRHD-HK is the first photogrammetric dataset that focuses on HRHD urban areas.
+This paper also comprehensively evaluates eight popular semantic segmentation
+methods on the HRHD-HK dataset. Experimental results confirmed plenty of room
+for enhancing the current 3D semantic segmentation of point clouds, especially
+for city objects with small volumes. Our dataset is publicly available at:
+https://github.com/LuZaiJiaoXiaL/HRHD-HK.
+</p></li>
+</ul>
+<h3>Title: Multi-Object Discovery by Low-Dimensional Object Motion. (arXiv:2307.08027v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.08027">http://arxiv.org/abs/2307.08027</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.08027] Multi-Object Discovery by Low-Dimensional Object Motion](http://arxiv.org/abs/2307.08027) #segmentation</code></li>
+<li>Summary: <p>Recent work in unsupervised multi-object segmentation shows impressive
+results by predicting motion from a single image despite the inherent ambiguity
+in predicting motion without the next image. On the other hand, the set of
+possible motions for an image can be constrained to a low-dimensional space by
+considering the scene structure and moving objects in it. We propose to model
+pixel-wise geometry and object motion to remove ambiguity in reconstructing
+flow from a single image. Specifically, we divide the image into coherently
+moving regions and use depth to construct flow bases that best explain the
+observed flow in each region. We achieve state-of-the-art results in
+unsupervised multi-object segmentation on synthetic and real-world datasets by
+modeling the scene structure and object motion. Our evaluation of the predicted
+depth maps shows reliable performance in monocular depth estimation.
+</p></li>
+</ul>
+<h2>3d point cloud</h2>
+<h2>railway infrastructure</h2>
+<h2>point cloud segmentation</h2>
+<h2>extraction</h2>
+<h3>Title: Spatial-Spectral Hyperspectral Classification based on Learnable 3D Group Convolution. (arXiv:2307.07720v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.07720">http://arxiv.org/abs/2307.07720</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.07720] Spatial-Spectral Hyperspectral Classification based on Learnable 3D Group Convolution](http://arxiv.org/abs/2307.07720) #extraction</code></li>
+<li>Summary: <p>Deep neural networks have faced many problems in hyperspectral image
+classification, including the ineffective utilization of spectral-spatial joint
+information and the problems of gradient vanishing and overfitting that arise
+with increasing depth. In order to accelerate the deployment of models on edge
+devices with strict latency requirements and limited computing power, this
+paper proposes a learnable group convolution network (LGCNet) based on an
+improved 3D-DenseNet model and a lightweight model design. The LGCNet module
+improves the shortcomings of group convolution by introducing a dynamic
+learning method for the input channels and convolution kernel grouping,
+enabling flexible grouping structures and generating better representation
+ability. Through the overall loss and gradient of the backpropagation network,
+the 3D group convolution is dynamically determined and updated in an end-to-end
+manner. The learnable number of channels and corresponding grouping can capture
+different complementary visual features of input images, allowing the CNN to
+learn richer feature representations. When extracting high-dimensional and
+redundant hyperspectral data, the 3D convolution kernels also contain a large
+amount of redundant information. The LGC module allows the 3D-DenseNet to
+choose channel information with more semantic features, and is very efficient,
+making it suitable for embedding in any deep neural network for acceleration
+and efficiency improvements. LGC enables the 3D-CNN to achieve sufficient
+feature extraction while also meeting speed and computing requirements.
+Furthermore, LGCNet has achieved progress in inference speed and accuracy, and
+outperforms mainstream hyperspectral image classification methods on the Indian
+Pines, Pavia University, and KSC datasets.
+</p></li>
+</ul>
+<h3>Title: Prawn Morphometrics and Weight Estimation from Images using Deep Learning for Landmark Localization. (arXiv:2307.07732v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.07732">http://arxiv.org/abs/2307.07732</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.07732] Prawn Morphometrics and Weight Estimation from Images using Deep Learning for Landmark Localization](http://arxiv.org/abs/2307.07732) #extraction</code></li>
+<li>Summary: <p>Accurate weight estimation and morphometric analyses are useful in
+aquaculture for optimizing feeding, predicting harvest yields, identifying
+desirable traits for selective breeding, grading processes, and monitoring the
+health status of production animals. However, the collection of phenotypic data
+through traditional manual approaches at industrial scales and in real-time is
+time-consuming, labour-intensive, and prone to errors. Digital imaging of
+individuals and subsequent training of prediction models using Deep Learning
+(DL) has the potential to rapidly and accurately acquire phenotypic data from
+aquaculture species. In this study, we applied a novel DL approach to automate
+weight estimation and morphometric analysis using the black tiger prawn
+(Penaeus monodon) as a model crustacean. The DL approach comprises two main
+components: a feature extraction module that efficiently combines low-level and
+high-level features using the Kronecker product operation; followed by a
+landmark localization module that then uses these features to predict the
+coordinates of key morphological points (landmarks) on the prawn body. Once
+these landmarks were extracted, weight was estimated using a weight regression
+module based on the extracted landmarks using a fully connected network. For
+morphometric analyses, we utilized the detected landmarks to derive five
+important prawn traits. Principal Component Analysis (PCA) was also used to
+identify landmark-derived distances, which were found to be highly correlated
+with shape features such as body length, and width. We evaluated our approach
+on a large dataset of 8164 images of the Black tiger prawn (Penaeus monodon)
+collected from Australian farms. Our experimental results demonstrate that the
+novel DL approach outperforms existing DL methods in terms of accuracy,
+robustness, and efficiency.
+</p></li>
+</ul>
+<h3>Title: DocTr: Document Transformer for Structured Information Extraction in Documents. (arXiv:2307.07929v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.07929">http://arxiv.org/abs/2307.07929</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.07929] DocTr: Document Transformer for Structured Information Extraction in Documents](http://arxiv.org/abs/2307.07929) #extraction</code></li>
+<li>Summary: <p>We present a new formulation for structured information extraction (SIE) from
+visually rich documents. It aims to address the limitations of existing IOB
+tagging or graph-based formulations, which are either overly reliant on the
+correct ordering of input text or struggle with decoding a complex graph.
+Instead, motivated by anchor-based object detectors in vision, we represent an
+entity as an anchor word and a bounding box, and represent entity linking as
+the association between anchor words. This is more robust to text ordering, and
+maintains a compact graph for entity linking. The formulation motivates us to
+introduce 1) a DOCument TRansformer (DocTr) that aims at detecting and
+associating entity bounding boxes in visually rich documents, and 2) a simple
+pre-training strategy that helps learn entity detection in the context of
+language. Evaluations on three SIE benchmarks show the effectiveness of the
+proposed formulation, and the overall approach outperforms existing solutions.
+</p></li>
+</ul>
+<h2>lidar</h2>
+<h3>Title: KECOR: Kernel Coding Rate Maximization for Active 3D Object Detection. (arXiv:2307.07942v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.07942">http://arxiv.org/abs/2307.07942</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.07942] KECOR: Kernel Coding Rate Maximization for Active 3D Object Detection](http://arxiv.org/abs/2307.07942) #lidar</code></li>
+<li>Summary: <p>Achieving a reliable LiDAR-based object detector in autonomous driving is
+paramount, but its success hinges on obtaining large amounts of precise 3D
+annotations. Active learning (AL) seeks to mitigate the annotation burden
+through algorithms that use fewer labels and can attain performance comparable
+to fully supervised learning. Although AL has shown promise, current approaches
+prioritize the selection of unlabeled point clouds with high uncertainty and/or
+diversity, leading to the selection of more instances for labeling and reduced
+computational efficiency. In this paper, we resort to a novel kernel coding
+rate maximization (KECOR) strategy which aims to identify the most informative
+point clouds to acquire labels through the lens of information theory. Greedy
+search is applied to seek desired point clouds that can maximize the minimal
+number of bits required to encode the latent features. To determine the
+uniqueness and informativeness of the selected samples from the model
+perspective, we construct a proxy network of the 3D detector head and compute
+the outer product of Jacobians from all proxy layers to form the empirical
+neural tangent kernel (NTK) matrix. To accommodate both one-stage (i.e.,
+SECOND) and two-stage detectors (i.e., PVRCNN), we further incorporate the
+classification entropy maximization and well trade-off between detection
+performance and the total number of bounding boxes selected for annotation.
+Extensive experiments conducted on two 3D benchmarks and a 2D detection dataset
+evidence the superiority and versatility of the proposed approach. Our results
+show that approximately 44% box-level annotation costs and 26% computational
+time are reduced compared to the state-of-the-art AL method, without
+compromising detection performance.
+</p></li>
+</ul>
+<h2>Infrastructure information models</h2>
+<h2>edge regularization</h2>
+<h2>lod</h2>
+<script src="https://cdn.staticfile.org/clipboard.js/2.0.4/clipboard.min.js"></script>
+<script>new ClipboardJS("#copy",{text:function(trigger){var res="[[2023-07-18]]\n\n";var input=document.querySelectorAll("input");for(var i=0;i<input.length;i++){if(input[i].type=="checkbox"&&input[i].checked){res+="- "+input[i].nextSibling.nodeValue+"\n"}}res+="\n";return res}}).on("success",function(e){e.clearSelection()});</script>
+<button id="copy">Copy All</button>
