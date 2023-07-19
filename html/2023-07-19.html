@@ -1,0 +1,530 @@
+<h2>pointcloud</h2>
+<h2>railway</h2>
+<h2>bim</h2>
+<h2>procedural modeling</h2>
+<h2>segmentation</h2>
+<h3>Title: Semantic Counting from Self-Collages. (arXiv:2307.08727v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.08727">http://arxiv.org/abs/2307.08727</a></li>
+<li>Code URL: <a href="https://github.com/lukasknobel/selfcollages">https://github.com/lukasknobel/selfcollages</a></li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.08727] Semantic Counting from Self-Collages](http://arxiv.org/abs/2307.08727) #segmentation</code></li>
+<li>Summary: <p>While recent supervised methods for reference-based object counting continue
+to improve the performance on benchmark datasets, they have to rely on small
+datasets due to the cost associated with manually annotating dozens of objects
+in images. We propose Unsupervised Counter (UnCo), a model that can learn this
+task without requiring any manual annotations. To this end, we construct
+"SelfCollages", images with various pasted objects as training samples, that
+provide a rich learning signal covering arbitrary object types and counts. Our
+method builds on existing unsupervised representations and segmentation
+techniques to successfully demonstrate the ability to count objects without
+manual supervision. Our experiments show that our method not only outperforms
+simple baselines and generic models such as FasterRCNN, but also matches the
+performance of supervised counting models in some domains.
+</p></li>
+</ul>
+<h3>Title: Similarity Min-Max: Zero-Shot Day-Night Domain Adaptation. (arXiv:2307.08779v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.08779">http://arxiv.org/abs/2307.08779</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.08779] Similarity Min-Max: Zero-Shot Day-Night Domain Adaptation](http://arxiv.org/abs/2307.08779) #segmentation</code></li>
+<li>Summary: <p>Low-light conditions not only hamper human visual experience but also degrade
+the model's performance on downstream vision tasks. While existing works make
+remarkable progress on day-night domain adaptation, they rely heavily on domain
+knowledge derived from the task-specific nighttime dataset. This paper
+challenges a more complicated scenario with border applicability, i.e.,
+zero-shot day-night domain adaptation, which eliminates reliance on any
+nighttime data. Unlike prior zero-shot adaptation approaches emphasizing either
+image-level translation or model-level adaptation, we propose a similarity
+min-max paradigm that considers them under a unified framework. On the image
+level, we darken images towards minimum feature similarity to enlarge the
+domain gap. Then on the model level, we maximize the feature similarity between
+the darkened images and their normal-light counterparts for better model
+adaptation. To the best of our knowledge, this work represents the pioneering
+effort in jointly optimizing both aspects, resulting in a significant
+improvement of model generalizability. Extensive experiments demonstrate our
+method's effectiveness and broad applicability on various nighttime vision
+tasks, including classification, semantic segmentation, visual place
+recognition, and video action recognition. Code and pre-trained models are
+available at https://red-fairy.github.io/ZeroShotDayNightDA-Webpage/.
+</p></li>
+</ul>
+<h3>Title: Modular Neural Network Approaches for Surgical Image Recognition. (arXiv:2307.08880v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.08880">http://arxiv.org/abs/2307.08880</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.08880] Modular Neural Network Approaches for Surgical Image Recognition](http://arxiv.org/abs/2307.08880) #segmentation</code></li>
+<li>Summary: <p>Deep learning-based applications have seen a lot of success in recent years.
+Text, audio, image, and video have all been explored with great success using
+deep learning approaches. The use of convolutional neural networks (CNN) in
+computer vision, in particular, has yielded reliable results. In order to
+achieve these results, a large amount of data is required. However, the dataset
+cannot always be accessible. Moreover, annotating data can be difficult and
+time-consuming. Self-training is a semi-supervised approach that managed to
+alleviate this problem and achieve state-of-the-art performances. Theoretical
+analysis even proved that it may result in a better generalization than a
+normal classifier. Another problem neural networks can face is the increasing
+complexity of modern problems, requiring a high computational and storage cost.
+One way to mitigate this issue, a strategy that has been inspired by human
+cognition known as modular learning, can be employed. The principle of the
+approach is to decompose a complex problem into simpler sub-tasks. This
+approach has several advantages, including faster learning, better
+generalization, and enables interpretability.
+</p></li>
+</ul>
+<p>In the first part of this paper, we introduce and evaluate different
+architectures of modular learning for Dorsal Capsulo-Scapholunate Septum (DCSS)
+instability classification. Our experiments have shown that modular learning
+improves performances compared to non-modular systems. Moreover, we found that
+weighted modular, that is to weight the output using the probabilities from the
+gating module, achieved an almost perfect classification. In the second part,
+we present our approach for data labeling and segmentation with self-training
+applied on shoulder arthroscopy images.
+</p>
+
+<h3>Title: EVIL: Evidential Inference Learning for Trustworthy Semi-supervised Medical Image Segmentation. (arXiv:2307.08988v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.08988">http://arxiv.org/abs/2307.08988</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.08988] EVIL: Evidential Inference Learning for Trustworthy Semi-supervised Medical Image Segmentation](http://arxiv.org/abs/2307.08988) #segmentation</code></li>
+<li>Summary: <p>Recently, uncertainty-aware methods have attracted increasing attention in
+semi-supervised medical image segmentation. However, current methods usually
+suffer from the drawback that it is difficult to balance the computational
+cost, estimation accuracy, and theoretical support in a unified framework. To
+alleviate this problem, we introduce the Dempster-Shafer Theory of Evidence
+(DST) into semi-supervised medical image segmentation, dubbed Evidential
+Inference Learning (EVIL). EVIL provides a theoretically guaranteed solution to
+infer accurate uncertainty quantification in a single forward pass. Trustworthy
+pseudo labels on unlabeled data are generated after uncertainty estimation. The
+recently proposed consistency regularization-based training paradigm is adopted
+in our framework, which enforces the consistency on the perturbed predictions
+to enhance the generalization with few labeled data. Experimental results show
+that EVIL achieves competitive performance in comparison with several
+state-of-the-art methods on the public dataset.
+</p></li>
+</ul>
+<h3>Title: EgoVM: Achieving Precise Ego-Localization using Lightweight Vectorized Maps. (arXiv:2307.08991v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.08991">http://arxiv.org/abs/2307.08991</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.08991] EgoVM: Achieving Precise Ego-Localization using Lightweight Vectorized Maps](http://arxiv.org/abs/2307.08991) #segmentation</code></li>
+<li>Summary: <p>Accurate and reliable ego-localization is critical for autonomous driving. In
+this paper, we present EgoVM, an end-to-end localization network that achieves
+comparable localization accuracy to prior state-of-the-art methods, but uses
+lightweight vectorized maps instead of heavy point-based maps. To begin with,
+we extract BEV features from online multi-view images and LiDAR point cloud.
+Then, we employ a set of learnable semantic embeddings to encode the semantic
+types of map elements and supervise them with semantic segmentation, to make
+their feature representation consistent with BEV features. After that, we feed
+map queries, composed of learnable semantic embeddings and coordinates of map
+elements, into a transformer decoder to perform cross-modality matching with
+BEV features. Finally, we adopt a robust histogram-based pose solver to
+estimate the optimal pose by searching exhaustively over candidate poses. We
+comprehensively validate the effectiveness of our method using both the
+nuScenes dataset and a newly collected dataset. The experimental results show
+that our method achieves centimeter-level localization accuracy, and
+outperforms existing methods using vectorized maps by a large margin.
+Furthermore, our model has been extensively tested in a large fleet of
+autonomous vehicles under various challenging urban scenes.
+</p></li>
+</ul>
+<h3>Title: Face-PAST: Facial Pose Awareness and Style Transfer Networks. (arXiv:2307.09020v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.09020">http://arxiv.org/abs/2307.09020</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.09020] Face-PAST: Facial Pose Awareness and Style Transfer Networks](http://arxiv.org/abs/2307.09020) #segmentation</code></li>
+<li>Summary: <p>Facial style transfer has been quite popular among researchers due to the
+rise of emerging technologies such as eXtended Reality (XR), Metaverse, and
+Non-Fungible Tokens (NFTs). Furthermore, StyleGAN methods along with
+transfer-learning strategies have reduced the problem of limited data to some
+extent. However, most of the StyleGAN methods overfit the styles while adding
+artifacts to facial images. In this paper, we propose a facial pose awareness
+and style transfer (Face-PAST) network that preserves facial details and
+structures while generating high-quality stylized images. Dual StyleGAN
+inspires our work, but in contrast, our work uses a pre-trained style
+generation network in an external style pass with a residual modulation block
+instead of a transform coding block. Furthermore, we use the gated mapping unit
+and facial structure, identity, and segmentation losses to preserve the facial
+structure and details. This enables us to train the network with a very limited
+amount of data while generating high-quality stylized images. Our training
+process adapts curriculum learning strategy to perform efficient and flexible
+style mixing in the generative space. We perform extensive experiments to show
+the superiority of Face-PAST in comparison to existing state-of-the-art
+methods.
+</p></li>
+</ul>
+<h3>Title: Online Self-Supervised Thermal Water Segmentation for Aerial Vehicles. (arXiv:2307.09027v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.09027">http://arxiv.org/abs/2307.09027</a></li>
+<li>Code URL: <a href="https://github.com/connorlee77/uav-thermal-water-segmentation">https://github.com/connorlee77/uav-thermal-water-segmentation</a></li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.09027] Online Self-Supervised Thermal Water Segmentation for Aerial Vehicles](http://arxiv.org/abs/2307.09027) #segmentation</code></li>
+<li>Summary: <p>We present a new method to adapt an RGB-trained water segmentation network to
+target-domain aerial thermal imagery using online self-supervision by
+leveraging texture and motion cues as supervisory signals. This new thermal
+capability enables current autonomous aerial robots operating in near-shore
+environments to perform tasks such as visual navigation, bathymetry, and flow
+tracking at night. Our method overcomes the problem of scarce and
+difficult-to-obtain near-shore thermal data that prevents the application of
+conventional supervised and unsupervised methods. In this work, we curate the
+first aerial thermal near-shore dataset, show that our approach outperforms
+fully-supervised segmentation models trained on limited target-domain thermal
+data, and demonstrate real-time capabilities onboard an Nvidia Jetson embedded
+computing platform. Code and datasets used in this work will be available at:
+https://github.com/connorlee77/uav-thermal-water-segmentation.
+</p></li>
+</ul>
+<h3>Title: PottsMGNet: A Mathematical Explanation of Encoder-Decoder Based Neural Networks. (arXiv:2307.09039v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.09039">http://arxiv.org/abs/2307.09039</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.09039] PottsMGNet: A Mathematical Explanation of Encoder-Decoder Based Neural Networks](http://arxiv.org/abs/2307.09039) #segmentation</code></li>
+<li>Summary: <p>For problems in image processing and many other fields, a large class of
+effective neural networks has encoder-decoder-based architectures. Although
+these networks have made impressive performances, mathematical explanations of
+their architectures are still underdeveloped. In this paper, we study the
+encoder-decoder-based network architecture from the algorithmic perspective and
+provide a mathematical explanation. We use the two-phase Potts model for image
+segmentation as an example for our explanations. We associate the segmentation
+problem with a control problem in the continuous setting. Then, multigrid
+method and operator splitting scheme, the PottsMGNet, are used to discretize
+the continuous control model. We show that the resulting discrete PottsMGNet is
+equivalent to an encoder-decoder-based network. With minor modifications, it is
+shown that a number of the popular encoder-decoder-based neural networks are
+just instances of the proposed PottsMGNet. By incorporating the
+Soft-Threshold-Dynamics into the PottsMGNet as a regularizer, the PottsMGNet
+has shown to be robust with the network parameters such as network width and
+depth and achieved remarkable performance on datasets with very large noise. In
+nearly all our experiments, the new network always performs better or as good
+on accuracy and dice score than existing networks for image segmentation.
+</p></li>
+</ul>
+<h3>Title: Connections between Operator-splitting Methods and Deep Neural Networks with Applications in Image Segmentation. (arXiv:2307.09052v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.09052">http://arxiv.org/abs/2307.09052</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.09052] Connections between Operator-splitting Methods and Deep Neural Networks with Applications in Image Segmentation](http://arxiv.org/abs/2307.09052) #segmentation</code></li>
+<li>Summary: <p>Deep neural network is a powerful tool for many tasks. Understanding why it
+is so successful and providing a mathematical explanation is an important
+problem and has been one popular research direction in past years. In the
+literature of mathematical analysis of deep deep neural networks, a lot of
+works are dedicated to establishing representation theories. How to make
+connections between deep neural networks and mathematical algorithms is still
+under development. In this paper, we give an algorithmic explanation for deep
+neural networks, especially in their connection with operator splitting and
+multigrid methods. We show that with certain splitting strategies,
+operator-splitting methods have the same structure as networks. Utilizing this
+connection and the Potts model for image segmentation, two networks inspired by
+operator-splitting methods are proposed. The two networks are essentially two
+operator-splitting algorithms solving the Potts model. Numerical experiments
+are presented to demonstrate the effectiveness of the proposed networks.
+</p></li>
+</ul>
+<h3>Title: Light-Weight Vision Transformer with Parallel Local and Global Self-Attention. (arXiv:2307.09120v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.09120">http://arxiv.org/abs/2307.09120</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.09120] Light-Weight Vision Transformer with Parallel Local and Global Self-Attention](http://arxiv.org/abs/2307.09120) #segmentation</code></li>
+<li>Summary: <p>While transformer architectures have dominated computer vision in recent
+years, these models cannot easily be deployed on hardware with limited
+resources for autonomous driving tasks that require real-time-performance.
+Their computational complexity and memory requirements limits their use,
+especially for applications with high-resolution inputs. In our work, we
+redesign the powerful state-of-the-art Vision Transformer PLG-ViT to a much
+more compact and efficient architecture that is suitable for such tasks. We
+identify computationally expensive blocks in the original PLG-ViT architecture
+and propose several redesigns aimed at reducing the number of parameters and
+floating-point operations. As a result of our redesign, we are able to reduce
+PLG-ViT in size by a factor of 5, with a moderate drop in performance. We
+propose two variants, optimized for the best trade-off between parameter count
+to runtime as well as parameter count to accuracy. With only 5 million
+parameters, we achieve 79.5$\%$ top-1 accuracy on the ImageNet-1K
+classification benchmark. Our networks demonstrate great performance on general
+vision benchmarks like COCO instance segmentation. In addition, we conduct a
+series of experiments, demonstrating the potential of our approach in solving
+various tasks specifically tailored to the challenges of autonomous driving and
+transportation.
+</p></li>
+</ul>
+<h3>Title: CG-fusion CAM: Online segmentation of laser-induced damage on large-aperture optics. (arXiv:2307.09161v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.09161">http://arxiv.org/abs/2307.09161</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.09161] CG-fusion CAM: Online segmentation of laser-induced damage on large-aperture optics](http://arxiv.org/abs/2307.09161) #segmentation</code></li>
+<li>Summary: <p>Online segmentation of laser-induced damage on large-aperture optics in
+high-power laser facilities is challenged by complicated damage morphology,
+uneven illumination and stray light interference. Fully supervised semantic
+segmentation algorithms have achieved state-of-the-art performance, but rely on
+plenty of pixel-level labels, which are time-consuming and labor-consuming to
+produce. LayerCAM, an advanced weakly supervised semantic segmentation
+algorithm, can generate pixel-accurate results using only image-level labels,
+but its scattered and partially under-activated class activation regions
+degrade segmentation performance. In this paper, we propose a weakly supervised
+semantic segmentation method with Continuous Gradient CAM and its nonlinear
+multi-scale fusion (CG-fusion CAM). The method redesigns the way of
+back-propagating gradients and non-linearly activates the multi-scale fused
+heatmaps to generate more fine-grained class activation maps with appropriate
+activation degree for different sizes of damage sites. Experiments on our
+dataset show that the proposed method can achieve segmentation performance
+comparable to that of fully supervised algorithms.
+</p></li>
+</ul>
+<h3>Title: A Survey on Open-Vocabulary Detection and Segmentation: Past, Present, and Future. (arXiv:2307.09220v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.09220">http://arxiv.org/abs/2307.09220</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.09220] A Survey on Open-Vocabulary Detection and Segmentation: Past, Present, and Future](http://arxiv.org/abs/2307.09220) #segmentation</code></li>
+<li>Summary: <p>As the most fundamental tasks of computer vision, object detection and
+segmentation have made tremendous progress in the deep learning era. Due to the
+expensive manual labeling, the annotated categories in existing datasets are
+often small-scale and pre-defined, i.e., state-of-the-art detectors and
+segmentors fail to generalize beyond the closed-vocabulary. To resolve this
+limitation, the last few years have witnessed increasing attention toward
+Open-Vocabulary Detection (OVD) and Segmentation (OVS). In this survey, we
+provide a comprehensive review on the past and recent development of OVD and
+OVS. To this end, we develop a taxonomy according to the type of task and
+methodology. We find that the permission and usage of weak supervision signals
+can well discriminate different methodologies, including: visual-semantic space
+mapping, novel visual feature synthesis, region-aware training,
+pseudo-labeling, knowledge distillation-based, and transfer learning-based. The
+proposed taxonomy is universal across different tasks, covering object
+detection, semantic/instance/panoptic segmentation, 3D scene and video
+understanding. In each category, its main principles, key challenges,
+development routes, strengths, and weaknesses are thoroughly discussed. In
+addition, we benchmark each task along with the vital components of each
+method. Finally, several promising directions are provided to stimulate future
+research.
+</p></li>
+</ul>
+<h3>Title: MarS3D: A Plug-and-Play Motion-Aware Model for Semantic Segmentation on Multi-Scan 3D Point Clouds. (arXiv:2307.09316v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.09316">http://arxiv.org/abs/2307.09316</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.09316] MarS3D: A Plug-and-Play Motion-Aware Model for Semantic Segmentation on Multi-Scan 3D Point Clouds](http://arxiv.org/abs/2307.09316) #segmentation</code></li>
+<li>Summary: <p>3D semantic segmentation on multi-scan large-scale point clouds plays an
+important role in autonomous systems. Unlike the single-scan-based semantic
+segmentation task, this task requires distinguishing the motion states of
+points in addition to their semantic categories. However, methods designed for
+single-scan-based segmentation tasks perform poorly on the multi-scan task due
+to the lacking of an effective way to integrate temporal information. We
+propose MarS3D, a plug-and-play motion-aware module for semantic segmentation
+on multi-scan 3D point clouds. This module can be flexibly combined with
+single-scan models to allow them to have multi-scan perception abilities. The
+model encompasses two key designs: the Cross-Frame Feature Embedding module for
+enriching representation learning and the Motion-Aware Feature Learning module
+for enhancing motion awareness. Extensive experiments show that MarS3D can
+improve the performance of the baseline model by a large margin. The code is
+available at https://github.com/CVMI-Lab/MarS3D.
+</p></li>
+</ul>
+<h3>Title: OnlineRefer: A Simple Online Baseline for Referring Video Object Segmentation. (arXiv:2307.09356v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.09356">http://arxiv.org/abs/2307.09356</a></li>
+<li>Code URL: <a href="https://github.com/wudongming97/onlinerefer">https://github.com/wudongming97/onlinerefer</a></li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.09356] OnlineRefer: A Simple Online Baseline for Referring Video Object Segmentation](http://arxiv.org/abs/2307.09356) #segmentation</code></li>
+<li>Summary: <p>Referring video object segmentation (RVOS) aims at segmenting an object in a
+video following human instruction. Current state-of-the-art methods fall into
+an offline pattern, in which each clip independently interacts with text
+embedding for cross-modal understanding. They usually present that the offline
+pattern is necessary for RVOS, yet model limited temporal association within
+each clip. In this work, we break up the previous offline belief and propose a
+simple yet effective online model using explicit query propagation, named
+OnlineRefer. Specifically, our approach leverages target cues that gather
+semantic information and position prior to improve the accuracy and ease of
+referring predictions for the current frame. Furthermore, we generalize our
+online model into a semi-online framework to be compatible with video-based
+backbones. To show the effectiveness of our method, we evaluate it on four
+benchmarks, \ie, Refer-Youtube-VOS, Refer-DAVIS17, A2D-Sentences, and
+JHMDB-Sentences. Without bells and whistles, our OnlineRefer with a Swin-L
+backbone achieves 63.5 J&amp;F and 64.8 J&amp;F on Refer-Youtube-VOS and Refer-DAVIS17,
+outperforming all other offline methods.
+</p></li>
+</ul>
+<h3>Title: Disentangle then Parse:Night-time Semantic Segmentation with Illumination Disentanglement. (arXiv:2307.09362v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.09362">http://arxiv.org/abs/2307.09362</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.09362] Disentangle then Parse:Night-time Semantic Segmentation with Illumination Disentanglement](http://arxiv.org/abs/2307.09362) #segmentation</code></li>
+<li>Summary: <p>Most prior semantic segmentation methods have been developed for day-time
+scenes, while typically underperforming in night-time scenes due to
+insufficient and complicated lighting conditions. In this work, we tackle this
+challenge by proposing a novel night-time semantic segmentation paradigm, i.e.,
+disentangle then parse (DTP). DTP explicitly disentangles night-time images
+into light-invariant reflectance and light-specific illumination components and
+then recognizes semantics based on their adaptive fusion. Concretely, the
+proposed DTP comprises two key components: 1) Instead of processing
+lighting-entangled features as in prior works, our Semantic-Oriented
+Disentanglement (SOD) framework enables the extraction of reflectance component
+without being impeded by lighting, allowing the network to consistently
+recognize the semantics under cover of varying and complicated lighting
+conditions. 2) Based on the observation that the illumination component can
+serve as a cue for some semantically confused regions, we further introduce an
+Illumination-Aware Parser (IAParser) to explicitly learn the correlation
+between semantics and lighting, and aggregate the illumination features to
+yield more precise predictions. Extensive experiments on the night-time
+segmentation task with various settings demonstrate that DTP significantly
+outperforms state-of-the-art methods. Furthermore, with negligible additional
+parameters, DTP can be directly used to benefit existing day-time methods for
+night-time segmentation.
+</p></li>
+</ul>
+<h3>Title: LEST: Large-scale LiDAR Semantic Segmentation with Transformer. (arXiv:2307.09367v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.09367">http://arxiv.org/abs/2307.09367</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.09367] LEST: Large-scale LiDAR Semantic Segmentation with Transformer](http://arxiv.org/abs/2307.09367) #segmentation</code></li>
+<li>Summary: <p>Large-scale LiDAR-based point cloud semantic segmentation is a critical task
+in autonomous driving perception. Almost all of the previous state-of-the-art
+LiDAR semantic segmentation methods are variants of sparse 3D convolution.
+Although the Transformer architecture is becoming popular in the field of
+natural language processing and 2D computer vision, its application to
+large-scale point cloud semantic segmentation is still limited. In this paper,
+we propose a LiDAR sEmantic Segmentation architecture with pure Transformer,
+LEST. LEST comprises two novel components: a Space Filling Curve (SFC) Grouping
+strategy and a Distance-based Cosine Linear Transformer, DISCO. On the public
+nuScenes semantic segmentation validation set and SemanticKITTI test set, our
+model outperforms all the other state-of-the-art methods.
+</p></li>
+</ul>
+<h2>3d point cloud</h2>
+<h3>Title: Distilling Coarse-to-Fine Semantic Matching Knowledge for Weakly Supervised 3D Visual Grounding. (arXiv:2307.09267v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.09267">http://arxiv.org/abs/2307.09267</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.09267] Distilling Coarse-to-Fine Semantic Matching Knowledge for Weakly Supervised 3D Visual Grounding](http://arxiv.org/abs/2307.09267) #3d point cloud</code></li>
+<li>Summary: <p>3D visual grounding involves finding a target object in a 3D scene that
+corresponds to a given sentence query. Although many approaches have been
+proposed and achieved impressive performance, they all require dense
+object-sentence pair annotations in 3D point clouds, which are both
+time-consuming and expensive. To address the problem that fine-grained
+annotated data is difficult to obtain, we propose to leverage weakly supervised
+annotations to learn the 3D visual grounding model, i.e., only coarse
+scene-sentence correspondences are used to learn object-sentence links. To
+accomplish this, we design a novel semantic matching model that analyzes the
+semantic similarity between object proposals and sentences in a coarse-to-fine
+manner. Specifically, we first extract object proposals and coarsely select the
+top-K candidates based on feature and class similarity matrices. Next, we
+reconstruct the masked keywords of the sentence using each candidate one by
+one, and the reconstructed accuracy finely reflects the semantic similarity of
+each candidate to the query. Additionally, we distill the coarse-to-fine
+semantic matching knowledge into a typical two-stage 3D visual grounding model,
+which reduces inference costs and improves performance by taking full advantage
+of the well-studied structure of the existing architectures. We conduct
+extensive experiments on ScanRefer, Nr3D, and Sr3D, which demonstrate the
+effectiveness of our proposed method.
+</p></li>
+</ul>
+<h2>railway infrastructure</h2>
+<h2>point cloud segmentation</h2>
+<h2>extraction</h2>
+<h3>Title: Pixel-wise Graph Attention Networks for Person Re-identification. (arXiv:2307.09183v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.09183">http://arxiv.org/abs/2307.09183</a></li>
+<li>Code URL: <a href="https://github.com/wenyu1009/pganet">https://github.com/wenyu1009/pganet</a></li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.09183] Pixel-wise Graph Attention Networks for Person Re-identification](http://arxiv.org/abs/2307.09183) #extraction</code></li>
+<li>Summary: <p>Graph convolutional networks (GCN) is widely used to handle irregular data
+since it updates node features by using the structure information of graph.
+With the help of iterated GCN, high-order information can be obtained to
+further enhance the representation of nodes. However, how to apply GCN to
+structured data (such as pictures) has not been deeply studied. In this paper,
+we explore the application of graph attention networks (GAT) in image feature
+extraction. First of all, we propose a novel graph generation algorithm to
+convert images into graphs through matrix transformation. It is one magnitude
+faster than the algorithm based on K Nearest Neighbors (KNN). Then, GAT is used
+on the generated graph to update the node features. Thus, a more robust
+representation is obtained. These two steps are combined into a module called
+pixel-wise graph attention module (PGA). Since the graph obtained by our graph
+generation algorithm can still be transformed into a picture after processing,
+PGA can be well combined with CNN. Based on these two modules, we consulted the
+ResNet and design a pixel-wise graph attention network (PGANet). The PGANet is
+applied to the task of person re-identification in the datasets Market1501,
+DukeMTMC-reID and Occluded-DukeMTMC (outperforms state-of-the-art by 0.8\%,
+1.1\% and 11\% respectively, in mAP scores). Experiment results show that it
+achieves the state-of-the-art performance.
+\href{https://github.com/wenyu1009/PGANet}{The code is available here}.
+</p></li>
+</ul>
+<h3>Title: SphereNet: Learning a Noise-Robust and General Descriptor for Point Cloud Registration. (arXiv:2307.09351v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.09351">http://arxiv.org/abs/2307.09351</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.09351] SphereNet: Learning a Noise-Robust and General Descriptor for Point Cloud Registration](http://arxiv.org/abs/2307.09351) #extraction</code></li>
+<li>Summary: <p>Point cloud registration is to estimate a transformation to align point
+clouds collected in different perspectives. In learning-based point cloud
+registration, a robust descriptor is vital for high-accuracy registration.
+However, most methods are susceptible to noise and have poor generalization
+ability on unseen datasets. Motivated by this, we introduce SphereNet to learn
+a noise-robust and unseen-general descriptor for point cloud registration. In
+our method, first, the spheroid generator builds a geometric domain based on
+spherical voxelization to encode initial features. Then, the spherical
+interpolation of the sphere is introduced to realize robustness against noise.
+Finally, a new spherical convolutional neural network with spherical integrity
+padding completes the extraction of descriptors, which reduces the loss of
+features and fully captures the geometric features. To evaluate our methods, a
+new benchmark 3DMatch-noise with strong noise is introduced. Extensive
+experiments are carried out on both indoor and outdoor datasets. Under
+high-intensity noise, SphereNet increases the feature matching recall by more
+than 25 percentage points on 3DMatch-noise. In addition, it sets a new
+state-of-the-art performance for the 3DMatch and 3DLoMatch benchmarks with
+93.5\% and 75.6\% registration recall and also has the best generalization
+ability on unseen datasets.
+</p></li>
+</ul>
+<h3>Title: Occlusion Aware Student Emotion Recognition based on Facial Action Unit Detection. (arXiv:2307.09465v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.09465">http://arxiv.org/abs/2307.09465</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.09465] Occlusion Aware Student Emotion Recognition based on Facial Action Unit Detection](http://arxiv.org/abs/2307.09465) #extraction</code></li>
+<li>Summary: <p>Given that approximately half of science, technology, engineering, and
+mathematics (STEM) undergraduate students in U.S. colleges and universities
+leave by the end of the first year [15], it is crucial to improve the quality
+of classroom environments. This study focuses on monitoring students' emotions
+in the classroom as an indicator of their engagement and proposes an approach
+to address this issue. The impact of different facial parts on the performance
+of an emotional recognition model is evaluated through experimentation. To test
+the proposed model under partial occlusion, an artificially occluded dataset is
+introduced. The novelty of this work lies in the proposal of an occlusion-aware
+architecture for facial action units (AUs) extraction, which employs attention
+mechanism and adaptive feature learning. The AUs can be used later to classify
+facial expressions in classroom settings.
+</p></li>
+</ul>
+<p>This research paper's findings provide valuable insights into handling
+occlusion in analyzing facial images for emotional engagement analysis. The
+proposed experiments demonstrate the significance of considering occlusion and
+enhancing the reliability of facial analysis models in classroom environments.
+These findings can also be extended to other settings where occlusions are
+prevalent.
+</p>
+
+<h2>lidar</h2>
+<h3>Title: LiDAR-BEVMTN: Real-Time LiDAR Bird's-Eye View Multi-Task Perception Network for Autonomous Driving. (arXiv:2307.08850v1 [cs.CV])</h3>
+<ul>
+<li>Paper URL: <a href="http://arxiv.org/abs/2307.08850">http://arxiv.org/abs/2307.08850</a></li>
+<li>Code URL: null</li>
+<li>Copy Paste: <code><input type="checkbox">[[2307.08850] LiDAR-BEVMTN: Real-Time LiDAR Bird's-Eye View Multi-Task Perception Network for Autonomous Driving](http://arxiv.org/abs/2307.08850) #lidar</code></li>
+<li>Summary: <p>LiDAR is crucial for robust 3D scene perception in autonomous driving. LiDAR
+perception has the largest body of literature after camera perception. However,
+multi-task learning across tasks like detection, segmentation, and motion
+estimation using LiDAR remains relatively unexplored, especially on
+automotive-grade embedded platforms. We present a real-time multi-task
+convolutional neural network for LiDAR-based object detection, semantics, and
+motion segmentation. The unified architecture comprises a shared encoder and
+task-specific decoders, enabling joint representation learning. We propose a
+novel Semantic Weighting and Guidance (SWAG) module to transfer semantic
+features for improved object detection selectively. Our heterogeneous training
+scheme combines diverse datasets and exploits complementary cues between tasks.
+The work provides the first embedded implementation unifying these key
+perception tasks from LiDAR point clouds achieving 3ms latency on the embedded
+NVIDIA Xavier platform. We achieve state-of-the-art results for two tasks,
+semantic and motion segmentation, and close to state-of-the-art performance for
+3D object detection. By maximizing hardware efficiency and leveraging
+multi-task synergies, our method delivers an accurate and efficient solution
+tailored for real-world automated driving deployment. Qualitative results can
+be seen at https://youtu.be/H-hWRzv2lIY.
+</p></li>
+</ul>
+<h2>Infrastructure information models</h2>
+<h2>edge regularization</h2>
+<h2>lod</h2>
+<script src="https://cdn.staticfile.org/clipboard.js/2.0.4/clipboard.min.js"></script>
+<script>new ClipboardJS("#copy",{text:function(trigger){var res="[[2023-07-19]]\n\n";var input=document.querySelectorAll("input");for(var i=0;i<input.length;i++){if(input[i].type=="checkbox"&&input[i].checked){res+="- "+input[i].nextSibling.nodeValue+"\n"}}res+="\n";return res}}).on("success",function(e){e.clearSelection()});</script>
+<button id="copy">Copy All</button>
